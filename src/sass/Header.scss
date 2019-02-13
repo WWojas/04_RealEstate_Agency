@@ -1,0 +1,64 @@
+.navbar_bg {
+  background: #60372f;
+}
+
+.btn_bg {
+  background: mediumseagreen;
+}
+
+
+
+.flex_menu {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.dropdown_menu {
+
+  position: absolute;
+  width: 100vw;
+  top: 70px;
+  background: #00a671;
+  z-index: 5;
+
+  a {
+    color: white;
+
+
+    &:hover {
+      color: saddlebrown;
+      text-decoration: none;
+    }
+  }
+
+  li {
+    list-style: none;
+    padding: 10px 0 10px 0;
+
+  }
+}
+
+.desktop_menu {
+
+
+  a {
+    color: white;
+
+    &:hover {
+      color: #00a671;
+    }
+  }
+}
+
+.navbar-nav-desktop {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+  .nav-item {
+    margin: 0 ;
+  }
+}

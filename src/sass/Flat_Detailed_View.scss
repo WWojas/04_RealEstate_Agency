@@ -1,0 +1,48 @@
+
+.btn-dark {
+  margin: 20px 5px 10px 5px;
+  padding: 5px;
+}
+
+@media (max-width: 1199px) {
+.flat_detailed_bg {
+  background: url('../images/detailed_view_bg.png');
+  background-size: 100%;
+  margin-bottom: 40px;
+}
+}
+
+@media (min-width: 1200px) {
+  .flat_detailed_bg {
+    background: url('../images/detailed_view_bg_big.png');
+    background-size: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.detailed_view_img{
+  background: #58352e;
+  height: 304px;
+  padding: 10px;
+  color: whitesmoke;
+  margin: 25px 10px 25px 10px;
+}
+
+
+.extra_margin_bottom {
+  margin-bottom: 40px;
+}
+
+.zoom_btn {
+  color: whitesmoke;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.zoom_wrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}

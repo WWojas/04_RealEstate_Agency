@@ -1,0 +1,35 @@
+
+
+@import "Header";
+@import "Slider";
+@import "FilterSection";
+@import "Flat_Detailed_View";
+@import "Contact";
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_1200 {
+  max-width: 1200px;
+}
+
+.my-container-fluid {
+  width: 100%;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}

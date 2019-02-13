@@ -1,0 +1,63 @@
+
+
+@media (max-width: 1199px) {
+.bg_contact {
+  background: url('../images/contact_bg.png');
+  color: whitesmoke;
+  background-size: 100%;
+}
+}
+
+@media (min-width: 1200px) {
+  .bg_contact {
+    background: url('../images/contact_bg_big.png');
+    color: whitesmoke;
+    background-size: 100%;
+  }
+}
+
+.contact_hr {
+  width: 100%;
+  color: green;
+}
+
+.contact_container {
+  width:100%;
+  margin: 0 auto;
+
+  input {
+    width: 100%;
+    margin: 10px 2px 10px 2px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 200px;
+    margin: 10px 2px 10px 2px;
+  }
+
+}
+
+#input_validation {
+  width: 50%;
+}
+.validation_generator {
+ background: whitesmoke;
+  color: black;
+  padding: 5px;
+}
+
+.hide_btn {
+  width: 90%;
+  background: mediumseagreen;
+  height: 40px;
+  margin: 0 auto;
+
+
+}
+
+.form_wrapper {
+
+    margin:10px;
+
+}
